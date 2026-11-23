@@ -1,0 +1,21 @@
+{
+  "name": "vortex-lounge-server",
+  "version": "1.0.0",
+  "description": "Vortex Lounge - High-Performance Esports Lounge & Gaming Café Management API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "setup:db": "node src/scripts/initDb.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.12.2",
+    "mysql2": "^3.11.4",
+    "pdfkit": "^0.20.2"
+  }
+}
