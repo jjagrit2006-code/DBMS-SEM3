@@ -1,0 +1,13 @@
+{
+  "name": "vortex-lounge",
+  "version": "1.0.0",
+  "description": "VORTEX LOUNGE - High-Performance Esports Lounge & Gaming Café Management Platform",
+  "scripts": {
+    "dev": "node dev.js",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "setup:db": "npm run setup:db --prefix server"
+  }
+}
